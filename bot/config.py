@@ -36,7 +36,7 @@ LOGGER.info("Loading configuration from environment variables...")
 
 try:
     # Mandatory Variables
-    API_ID = get_env_variable("24335028", var_type=int)
+    API_ID = get_env_variable("24335028", 24335028)
     API_HASH = get_env_variable("b204ec833fb451fb913fc8e683b232d0")
     BOT_TOKEN = get_env_variable("BOT_TOKEN")
     DUMP_CHAT_ID = get_env_variable("-1002428113336", var_type=int)

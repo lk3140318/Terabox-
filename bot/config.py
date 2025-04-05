@@ -36,12 +36,12 @@ LOGGER.info("Loading configuration from environment variables...")
 
 try:
     # Mandatory Variables
-    API_ID = get_env_variable("TELEGRAM_API", var_type=int)
-    API_HASH = get_env_variable("TELEGRAM_HASH")
+    API_ID = get_env_variable("24335028", var_type=int)
+    API_HASH = get_env_variable("b204ec833fb451fb913fc8e683b232d0")
     BOT_TOKEN = get_env_variable("BOT_TOKEN")
-    DUMP_CHAT_ID = get_env_variable("DUMP_CHAT_ID", var_type=int)
+    DUMP_CHAT_ID = get_env_variable("-1002428113336", var_type=int)
     FSUB_ID = get_env_variable("FSUB_ID", var_type=int)
-    ADMIN_ID = get_env_variable("ADMIN_ID", var_type=list) # Returns a list of strings
+    ADMIN_ID = get_env_variable("5213073489", var_type=list) # Returns a list of strings
     TERABOX_COOKIE = get_env_variable("TERABOX_COOKIE")
 
     # Convert ADMIN_ID elements to int after validation

@@ -1,0 +1,7 @@
+pyrogram[uvloop,hydro]>=2.0.106  # Using uvloop for better performance
+tgcrypto>=1.2.5
+httpx[http2]>=0.25.0           # Async HTTP client
+python-dotenv>=1.0.0          # For loading .env locally (optional for Koyeb)
+aiofiles>=23.2.1              # For async file operations
+humanize>=4.8.0               # For human-readable file sizes/times
+pytz                          # For timezone-aware datetime

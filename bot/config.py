@@ -77,3 +77,4 @@ except ValueError as e:
 
 # Make ADULT_KEYWORDS lowercase for case-insensitive comparison
 ADULT_KEYWORDS_LOWER = [keyword.lower() for keyword in ADULT_KEYWORDS]
+
